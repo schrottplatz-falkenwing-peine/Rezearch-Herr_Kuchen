@@ -1,114 +1,140 @@
-# Rap Herr Kuchen Research Project
+# Rap-Herr-Kuchen-Forschungsprojekt
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/yourusername/Rap_Herr_Kuchen/blob/main/CONTRIBUTING.md)
+[![Beiträge willkommen](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](https://github.com/yourusername/Rap_Herr_Kuchen/blob/main/CONTRIBUTING.md)
 
-## 📖 Overview
+## 📖 Übersicht
 
-This repository is a comprehensive research project on the German rapper **Herr Kuchen** (real name: Marc-Philipp Müller). As a security researcher with a passion for data collection and analysis, I've gathered everything publicly available about this artist - from his discography and lyrics to news articles, social media mentions, and YouTube content. This project aims to provide a centralized, evidence-based resource for anyone interested in Herr Kuchen's career, controversies, and impact in the German rap scene.
+Hey, das hier ist mein umfassendes Forschungsprojekt zum deutschen Rapper **Herr Kuchen** (richtiger Name: Marc-Philipp Müller). Als Sicherheitsforscher mit einer Leidenschaft für Datenanalyse habe ich alles öffentlich verfügbare Material über diesen Künstler zusammengetragen - von seiner Diskografie und Songtexten bis hin zu Nachrichtenartikeln, Social-Media-Erwähnungen und YouTube-Inhalten. Ziel ist es, eine zentrale, evidenzbasierte Ressource zu schaffen für alle, die sich für Herr Kuchens Karriere, Kontroversen und Einfluss in der deutschen Rap-Szene interessieren.
 
-**Key Facts:**
-- **Monthly Listeners on Spotify:** 112.4K
-- **Follower Count:** 26,983
-- **Years Active:** 2013 - Present
-- **Notable Achievements:** Multiple album releases, battle rap victories, chart entries
+**Wichtige Fakten:**
+- **Monatliche Hörer auf Spotify:** 112.4K
+- **Follower-Zahl:** 26,983
+- **Jahre aktiv:** 2013 - Gegenwart
+- **Bemerkenswerte Erfolge:** Mehrere Album-Veröffentlichungen, Battle-Rap-Siege, Chart-Erfolge
 
-## 🗂️ Project Structure
+## 🗂️ Projektstruktur
 
 ```
-Rap_Herr_Kuchen/
-├── README.md                           # This file
-├── data_collection.md                  # Detailed data summary
-├── spotify/
-│   └── artist_info.json                # Spotify profile data
-├── lyrics/                             # Song lyrics (examples)
-├── articles/                           # News articles and interviews
-├── mentions/                           # Social media and media mentions
-└── youtube/                            # YouTube content links and descriptions
+Rezearch-Herr_Kuchen/
+├── README.md                                          # Diese Datei
+├── complete_discography_collection.md                # Vollständige Diskografie-Zusammenfassung
+├── youtube_complete_collection.md                    # Komplette YouTube-Inhalte
+├── battle_rap_complete_record.md                     # Battle-Rap-Chronik
+├── media_complete_coverage.md                        # Medienberichterstattung
+├── complete_biography_background.md                  # Vollständige Biografie
+├── youtube_music_video_complete_analysis.md          # Musikvideo-Analyse
+├── FINAL_COMPLETE_COLLECTION_SUMMARY.md              # Abschlusszusammenfassung
+├── COMPLETE_DATA_INVENTORY.md                        # Dateninventar
+├── discography/                                       # Diskografie-Details
+│   ├── Hilfe_2023/                                    # Album "Hilfe!" (2023)
+│   │   ├── tracklist.md                               # Trackliste
+│   │   └── lyrics_collection/                         # Songtexte-Sammlung
+│   │       ├── Platz.md                               # Vollständige Song-Analysen
+│   │       ├── Uiuiuiui.md
+│   │       ├── Erinnern.md
+│   │       ├── Hilfe.md
+│   │       ├── Wer_pennt_der_brennt.md
+│   │       ├── Halbe.md
+│   │       └── COMPLETE_LYRICS_COLLECTION_STATUS.md  # Sammlungsstatus
+└── lyrics_collection/                                 # Zusätzliche Songtexte
 ```
 
-### 📁 Directory Details
+### 📁 Verzeichnis-Details
 
-- **`spotify/`**: Complete artist information from Spotify API data, including albums, singles, tour dates, and fan statistics.
-- **`lyrics/`**: Transcribed song lyrics from major albums like "Hilfe!" and "Kerze". Full lyrics available via linked Genius pages.
-- **`articles/`**: Curated news articles, interviews, and reviews from sources like Raptastisch.net.
-- **`mentions/`**: Collection of social media discussions, Reddit threads, and media coverage.
-- **`youtube/`**: Links and descriptions of music videos, live performances, and other content.
+- **`discography/`**: Detaillierte Album-Informationen mit Tracklisten und Songtexten
+- **`lyrics_collection/`**: Vollständige Songtexte mit kulturellen Analysen und Kontext
+- **`complete_discography_collection.md`**: Umfassende Spotify- und Genius-Daten
+- **`youtube_complete_collection.md`**: Komplette YouTube-Kanal-Analyse mit Top-Videos
+- **`battle_rap_complete_record.md`**: Battle-Rap-Geschichte und Turnier-Erfolge
+- **`media_complete_coverage.md`**: Nachrichtenartikel und Medienberichterstattung
+- **`complete_biography_background.md`**: Vollständige Biografie von Wikipedia und anderen Quellen
+- **`youtube_music_video_complete_analysis.md`**: Detaillierte Analyse der Musikvideos
+- **`FINAL_COMPLETE_COLLECTION_SUMMARY.md`**: Zusammenfassung aller gesammelten Daten
+- **`COMPLETE_DATA_INVENTORY.md`**: Vollständiges Verzeichnis aller Dateien und Inhalte
 
-## 🔍 Data Sources
+## 🔍 Datenquellen
 
-All data is collected from publicly available, verifiable sources:
+Alle Daten stammen aus öffentlich zugänglichen, überprüfbaren Quellen:
 
-- **[Spotify](https://open.spotify.com/intl-de/artist/6w0pXSDTW9lwqdiJn89n6l)**: Official artist profile, discography, and streaming data.
-- **[Genius](https://genius.com/artists/Herr-kuchen)**: Lyrics, album tracklists, and annotations.
-- **[Wikipedia](https://de.wikipedia.org/wiki/Herr_Kuchen)**: Biography, career timeline, and discography.
-- **[Raptastisch.net](https://raptastisch.net/tag/herr-kuchen/)**: Latest news and controversies.
-- **[Reddit (r/GermanRap)](https://www.reddit.com/r/GermanRap/)**: Community discussions and opinions.
-- **[YouTube](https://www.youtube.com/@HerrKuchen)**: Official videos and collaborations.
+- **[Spotify](https://open.spotify.com/intl-de/artist/6w0pXSDTW9lwqdiJn89n6l)**: Offizielles Künstlerprofil, Diskografie und Streaming-Daten
+- **[Genius](https://genius.com/artists/Herr-kuchen)**: Songtexte, Album-Tracklisten und Annotationen
+- **[Wikipedia](https://de.wikipedia.org/wiki/Herr_Kuchen)**: Biografie, Karriere-Zeitstrahl und Diskografie
+- **[Hiphop.de](https://www.hiphop.de/tag/herr-kuchen)**: Aktuelle News und Kontroversen
+- **[Reddit (r/GermanRap)](https://www.reddit.com/r/GermanRap/)**: Community-Diskussionen und Meinungen
+- **[YouTube](https://www.youtube.com/@HerrKuchen)**: Offizielle Videos und Kollaborationen
+- **Verschiedene Quellen**: Battle-Rap-Foren, Fandom-Wikis, Social-Media-Plattformen
 
-## 🚀 Getting Started
+## 🚀 Erste Schritte
 
-1. **Clone the Repository:**
+1. **Repository klonen:**
    ```bash
-   git clone https://github.com/yourusername/Rap_Herr_Kuchen.git
-   cd Rap_Herr_Kuchen
+   git clone https://github.com/yourusername/Rezearch-Herr_Kuchen.git
+   cd Rezearch-Herr_Kuchen
    ```
 
-2. **Explore the Data:**
-   - Start with `data_collection.md` for a comprehensive overview.
-   - Dive into specific directories for detailed information.
+2. **Die Daten erkunden:**
+   - Beginne mit `FINAL_COMPLETE_COLLECTION_SUMMARY.md` für einen umfassenden Überblick
+   - Tauch ein in spezifische Verzeichnisse für detaillierte Informationen
 
-3. **Contribute:**
-   - Found new information? Submit a pull request!
-   - Report issues or suggest improvements via GitHub Issues.
+3. **Mitwirken:**
+   - Neue Informationen gefunden? Erstelle einen Pull-Request!
+   - Probleme melden oder Verbesserungen vorschlagen über GitHub Issues
 
-## 📊 Key Findings
+## 📊 Wichtige Erkenntnisse
 
-### Discography Highlights
-- **9 Studio Albums**: From debut "Frisch aus dem Ofen" (2017) to latest "Kerze" (2026).
-- **Chart Success**: "Frisch aus dem Ofen III" reached #48 on German album charts.
-- **Controversial Tracks**: "Jana" (2024) - 13-minute diss track against ex-partner Jindo109.
+### Diskografie-Highlights
+- **9 Studio-Alben**: Vom Debüt "Frisch aus dem Ofen" (2017) bis zum neuesten "Kerze" (2026)
+- **Chart-Erfolge**: "Frisch aus dem Ofen III" erreichte Platz #48 in den deutschen Album-Charts
+- **Kontroverse Tracks**: "Jana" (2024) - 13-minütiger Diss-Track gegen Ex-Partner Jindo109
 
-### Controversies
-- **Jindo109 Beef**: Public dispute involving allegations of drug introduction and domestic abuse.
-- **Battle Rap Legacy**: Victories in VBT and JBB tournaments, but mixed reception in the community.
+### Kontroversen
+- **Jindo109-Beef**: Öffentlicher Streit mit Vorwürfen von Drogen-Einführung und häuslicher Gewalt
+- **Battle-Rap-Vermächtnis**: Siege in VBT- und JBB-Turnieren, aber gemischte Resonanz in der Community
 
-### YouTube Presence
-- Official channel with music videos, behind-the-scenes, and live sessions.
-- Notable videos: "ZIEH NACH BERLIN", "METHYLENDIOXYMETHYLAMPHETAMIN".
+### YouTube-Präsenz
+- Offizieller Kanal mit Musikvideos, Behind-the-Scenes und Live-Sessions
+- Bemerkenswerte Videos: "ZIEH NACH BERLIN", "METHYLENDIOXYMETHYLAMPHETAMIN"
 
-## 🤝 Contributing
+### Umfassende Datensammlung
+- **Songtexte**: 6 von 16 Songs aus "Hilfe!" vollständig analysiert mit kulturellen Kontexten
+- **Medienberichterstattung**: Vollständige Abdeckung von Hiphop.de und anderen Quellen
+- **Battle-Rap-Chronik**: Detaillierte Turnier-Erfolge und Kampf-Stil-Analyse
+- **Biografie**: Umfassende Lebensgeschichte von den Anfängen bis heute
 
-I welcome contributions! Whether it's new articles, corrected lyrics, or additional sources:
+## 🤝 Mitwirken
 
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/new-data`.
-3. Commit your changes: `git commit -m 'Add new Herr Kuchen data'`.
-4. Push to the branch: `git push origin feature/new-data`.
-5. Open a Pull Request.
+Ich freue mich über Beiträge! Ob neue Artikel, korrigierte Songtexte oder zusätzliche Quellen:
 
-Please ensure all data is sourced and verifiable. Check out our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+1. Fork das Repository
+2. Erstelle einen Feature-Branch: `git checkout -b feature/neue-daten`
+3. Committe deine Änderungen: `git commit -m 'Neue Herr Kuchen Daten hinzufügen'`
+4. Push zum Branch: `git push origin feature/neue-daten`
+5. Öffne einen Pull-Request
 
-## 📜 License
+Bitte stelle sicher, dass alle Daten quellengestützt und überprüfbar sind. Schau dir unsere [Beitragsrichtlinien](CONTRIBUTING.md) für weitere Details an.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. All data is for research and educational purposes only.
+## 📜 Lizenz
 
-## 🙏 Acknowledgments
+Dieses Projekt ist unter der MIT-Lizenz lizenziert - siehe die [LICENSE](LICENSE)-Datei für Details. Alle Daten dienen ausschließlich Forschung- und Bildungszwecken.
 
-- Thanks to the open-source community for tools like GitHub and data sources.
-- Special shoutout to Genius and Spotify for making lyrics and music data accessible.
+## 🙏 Danksagungen
 
-## 📞 Contact
+- Dank an die Open-Source-Community für Tools wie GitHub und Datenquellen
+- Besonderer Dank an Genius und Spotify für die Bereitstellung von Songtexten und Musikdaten
+- Und natürlich an alle, die bei der Datensammlung geholfen haben
+
+## 📞 Kontakt
 
 **Toni Cubano**  
-*Security Researcher & Data Enthusiast*  
+*Sicherheitsforscher & Daten-Enthusiast*  
 - GitHub: [@tonicubano](https://github.com/tonicubano)  
 - LinkedIn: [Toni Cubano](https://linkedin.com/in/tonicubano)  
 - Email: toni.cubano@example.com  
 
-If you have questions about the data or want to discuss Herr Kuchen's impact on German rap, feel free to reach out!
+Hast du Fragen zu den Daten oder möchtest du über Herr Kuchens Einfluss auf den deutschen Rap diskutieren? Schreib mir gerne!
 
 ---
 
-*Last updated: March 2026*  
-*Data collection is ongoing - stay tuned for updates!* 🚀
+*Zuletzt aktualisiert: März 2026*  
+*Datensammlung läuft weiter - bleib dran für Updates!* 🚀
